@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.like-button {
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbs-up {
+    margin-right: 2%;
+    background-color: white;
+    padding: 2%;
+}
+.fa-thumbs-up:hover, .fa-thumbs-up.active  {
+   color: red;
+}
+.like-count {
+    background-color: white;
+    padding: 2%;
+}
+.active {
+    color: red;
+}
